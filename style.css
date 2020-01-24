@@ -1,0 +1,37 @@
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+#header{
+	display: flex;
+	align-items: center;
+	margin-top: -25px;
+	position: fixed;
+	width: 100%;
+	background-color: green;
+	
+}
+
+#header-img{
+	height: 100px;
+	padding-top: 20px;
+	
+	
+}
+
+#nav-bar {
+	margin-left: 30%; 
+	margin-right: 0%;
+	font-size: 20px;
+}
+
+.nav-link {
+	padding-left: 100px;
+	color: black;
+	text-decoration: none;
+
+}
